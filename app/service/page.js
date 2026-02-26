@@ -2,7 +2,7 @@ export default function Service() {
   return (
     <div className="bg-[#F4F6F9] min-h-screen">
 
-      {/* Hero Section */}
+
       <section className="bg-blue-900 text-white py-20 px-6 text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
           Our Services
@@ -13,7 +13,7 @@ export default function Service() {
         </p>
       </section>
 
-      {/* Core Services */}
+
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
@@ -62,7 +62,7 @@ export default function Service() {
         </div>
       </section>
 
-      {/* Process Section */}
+ 
       <section className="bg-white py-16 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-12">
@@ -105,7 +105,7 @@ export default function Service() {
         </div>
       </section>
 
-      {/* Why Choose Our Services */}
+  
       <section className="bg-blue-900 text-white py-16 px-6 text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
           Why Work With PropertySearch.com?
