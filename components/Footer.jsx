@@ -7,7 +7,7 @@ export default function Footer() {
       
       <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         
-        {/* Logo + About */}
+   
         <div>
           <Link href="/">
             <Image
@@ -27,7 +27,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Services */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-4">Our Expertise</h3>
 
@@ -40,7 +40,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact Details */}
+  
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
 
@@ -58,7 +58,6 @@ export default function Footer() {
 
       </div>
 
-      {/* Bottom Line */}
       <div className="border-t border-gray-600 mt-10 pt-6 text-center text-sm text-gray-400">
         © {new Date().getFullYear()} PropertySerch.com | All Rights Reserved
       </div>
