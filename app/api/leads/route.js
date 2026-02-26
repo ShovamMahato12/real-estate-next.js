@@ -1,11 +1,11 @@
 import { leads, addLead } from "@/data/leads"
 
-// GET all leads
+
 export async function GET() {
   return Response.json(leads)
 }
 
-// Create new lead
+
 export async function POST(req) {
   try {
     const body = await req.json()
