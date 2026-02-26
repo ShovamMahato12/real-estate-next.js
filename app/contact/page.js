@@ -27,7 +27,7 @@ export default function ContactSection() {
   return (
     <div className="bg-[#F4F6F9] min-h-screen">
 
-      {/* Hero Section */}
+   
       <section className="bg-blue-900 text-white py-20 px-6 text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
           Get In Touch
@@ -40,7 +40,7 @@ export default function ContactSection() {
 
       <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12">
 
-        {/* Contact Info */}
+       
         <div className="space-y-8">
 
           <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
@@ -85,7 +85,7 @@ export default function ContactSection() {
 
         </div>
 
-        {/* Contact Form */}
+       
         <div className="bg-white p-8 rounded-2xl shadow-md">
           <h3 className="text-xl font-semibold mb-6">
             Send Us a Message
