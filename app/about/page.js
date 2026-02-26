@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="bg-[#F4F6F9] min-h-screen">
 
-      {/* Hero Section */}
+     
       <section className="bg-blue-900 text-white py-20 px-6 text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
           About PropertySearch.com
@@ -13,7 +13,7 @@ export default function About() {
         </p>
       </section>
 
-      {/* Company Overview */}
+     
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -47,7 +47,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      
       <section className="bg-white py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
@@ -103,7 +103,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Stats Section */}
+     
       <section className="bg-blue-900 text-white py-16 px-6">
         <div className="max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
