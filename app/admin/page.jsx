@@ -9,7 +9,7 @@ export default function Admin() {
   const [leads, setLeads] = useState([])
   const [loading, setLoading] = useState(true)
 
-  // Fetch leads
+  
   const fetchLeads = async () => {
     try {
       const res = await fetch("/api/leads")
@@ -26,7 +26,7 @@ export default function Admin() {
     fetchLeads()
   }, [])
 
-  // Update status
+ 
   const updateStatus = async (id, newStatus) => {
     const res = await fetch(`/api/leads/${id}`, {
       method: "PATCH",
@@ -43,7 +43,7 @@ export default function Admin() {
     }
   }
 
-  // Delete single lead
+  
   const deleteLead = async (id) => {
     const confirmDelete = confirm("Are you sure you want to delete this lead?")
     if (!confirmDelete) return
@@ -59,7 +59,7 @@ export default function Admin() {
     }
   }
 
-  // Clear ALL leads
+
   const clearAllLeads = async () => {
     const confirmDelete = confirm("Delete ALL leads? This cannot be undone.")
     if (!confirmDelete) return
@@ -89,7 +89,7 @@ export default function Admin() {
         </button>
       </div>
 
-      {/* Stats */}
+      
       <div className="grid md:grid-cols-3 gap-6 mb-10">
         <div className="bg-white p-6 rounded-xl shadow">
           <h3 className="text-lg font-semibold">Total Leads</h3>
@@ -113,7 +113,7 @@ export default function Admin() {
         </div>
       </div>
 
-      {/* Table */}
+   
       <div className="bg-white rounded-xl shadow overflow-x-auto">
         <table className="w-full text-sm text-left">
           <thead className="bg-blue-900 text-white">
